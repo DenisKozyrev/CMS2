@@ -746,12 +746,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-18T11:08:24.031Z",
+      "buildTime": "2019-04-19T10:56:24.754Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "6a3822d0ef13ca765afcf4d093caa3a6",
+        "contentDigest": "6fa350fa93f884a68ce65a9df7171c1b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -761,7 +761,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "3f3670718493b7ed116ce2d54a6c494d",
+        "contentDigest": "0e34367d650c7f8112f0127df4648992",
         "type": "Directory",
         "description": "Directory \"src/markdownPages\"",
         "owner": "gatsby-source-filesystem"
@@ -773,7 +773,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-04-17T14:20:30.997Z",
-      "accessTime": "2019-04-18T11:08:28.789Z",
+      "accessTime": "2019-04-19T10:56:31.402Z",
       "changeTime": "2019-04-18T11:07:22.698Z",
       "birthTime": "2019-04-17T14:20:30.997Z",
       "root": "/",
@@ -791,11 +791,11 @@
       "blksize": 4096,
       "ino": 20578749,
       "blocks": 0,
-      "atimeMs": 1555585708788.5786,
+      "atimeMs": 1555671391402.1829,
       "mtimeMs": 1555510830996.9429,
       "ctimeMs": 1555585642698.0027,
       "birthtimeMs": 1555510830996.8757,
-      "atime": "2019-04-18T11:08:28.789Z",
+      "atime": "2019-04-19T10:56:31.402Z",
       "mtime": "2019-04-17T14:20:30.997Z",
       "ctime": "2019-04-18T11:07:22.698Z",
       "birthtime": "2019-04-17T14:20:30.997Z"
@@ -805,7 +805,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "80c83acdd7b91579cd0eb5dc66eaee91",
+        "contentDigest": "a7aba100224f3e7ce9e998c710eec278",
         "type": "Directory",
         "description": "Directory \"src/markdownPages/blog\"",
         "owner": "gatsby-source-filesystem"
@@ -817,7 +817,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-04-17T14:25:02.044Z",
-      "accessTime": "2019-04-18T11:08:28.790Z",
+      "accessTime": "2019-04-19T10:56:31.404Z",
       "changeTime": "2019-04-18T11:07:22.698Z",
       "birthTime": "2019-04-17T14:20:30.997Z",
       "root": "/",
@@ -835,11 +835,11 @@
       "blksize": 4096,
       "ino": 20578750,
       "blocks": 0,
-      "atimeMs": 1555585708789.8745,
+      "atimeMs": 1555671391403.8604,
       "mtimeMs": 1555511102043.6995,
       "ctimeMs": 1555585642697.9133,
       "birthtimeMs": 1555510830996.9385,
-      "atime": "2019-04-18T11:08:28.790Z",
+      "atime": "2019-04-19T10:56:31.404Z",
       "mtime": "2019-04-17T14:25:02.044Z",
       "ctime": "2019-04-18T11:07:22.698Z",
       "birthtime": "2019-04-17T14:20:30.997Z"
@@ -963,37 +963,41 @@
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {}
+    "connections": {
+      "MarkdownRemark": [
+        "/"
+      ]
+    }
   },
   "jsonDataPaths": {
     "hello-cms-bb1": "643/path---hello-cms-bb-1-538-L9UePJgLZEVKbpbB5CsDhPQ5JM",
-    "index": "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "index": "672/path---index-6a9-7VGglWkAYrhc6LR3rVt4vJ2QKwM",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8"
   },
   "components": {
     "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/BlogTemplate.js": {
-      "query": "",
       "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/BlogTemplate.js",
+      "query": "",
       "pages": [
         "/helloCMS"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/deniskozyrev/Dev/DashBouquet/CMS2/.cache/dev-404-page.js": {
-      "query": "",
       "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/.cache/dev-404-page.js",
+      "query": "",
       "pages": [
         "/dev-404-page/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/pages/index.js": {
-      "query": "",
       "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/pages/index.js",
+      "query": "query usersDeniskozyrevDevDashBouquetCms2SrcPagesIndexJs1441994560 {\n  allMarkdownRemark {\n    edges {\n      node {\n        frontmatter {\n          title\n          path\n          date\n        }\n        html\n      }\n    }\n  }\n}\n",
       "pages": [
         "/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     }
   },
   "staticQueryComponents": {}

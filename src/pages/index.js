@@ -1,3 +1,28 @@
 import React from "react"
+import { graphql } from "gatsby"
 
-export default () => <h1>Hello Denis</h1>
+const HomePage = ({ data }) => {
+  return data.allMarkdownRemark.edges.map((edge, i) => (
+    <div key={i}>{edge.node.frontmatter.title}</div>
+  ))
+}
+
+
+export const query = graphql`
+{
+  allMarkdownRemark {
+    edges {
+      node {
+        frontmatter {
+          title
+          path
+          date
+        }
+        html
+      }
+    }
+  }
+}
+`
+
+export default HomePage
