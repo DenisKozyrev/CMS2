@@ -10,7 +10,7 @@
         "path": "/dev-404-page/"
     },
     {
-        "componentChunkName": "component---src-templates-blog-template-js",
+        "componentChunkName": "component---src-templates-blog-js",
         "jsonName": "hello-cms-bb1",
         "path": "/helloCMS"
     }

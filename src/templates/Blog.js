@@ -1,6 +1,6 @@
 import React from "react";
 
-const BlogTemplate = ({ pageContext }) => {
+const Blog= ({ pageContext }) => {
 
   const { title, date, html } = pageContext ? pageContext : {};
 
@@ -16,4 +16,4 @@ const BlogTemplate = ({ pageContext }) => {
   );
 };
 
-export default BlogTemplate;
+export default Blog;

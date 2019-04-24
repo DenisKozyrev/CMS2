@@ -1,16 +1,37 @@
 backend:
   name: git-gateway
- 
+
+accept_roles: 
+  - admin
+  - editor
+
+publish_mode: editorial_workflow
+
 media_folder: static/assets
-public_folder: assets
+public_folder: src/assets
+
+site_url: https://cms50.netlify.com
 
 collections:
   - name: blog
     label: Blog
-    folder: src/markdownPages/blog
+    folder: markdown/blog
     create: true
     fields:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+  - name: "pages"
+    label: "Pages"
+    folder: markdown/pages
+    create: true
+    files:
+      - file: "markdown/pages/index.md"
+        label: "Landing Page"
+        name: "index"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Meta description, name: meta Description, widget: string}
+          - {label: Meta Keywords, name: meta Keywords, widget: string}
+          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
