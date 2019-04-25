@@ -746,12 +746,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-25T15:57:39.506Z",
+      "buildTime": "2019-04-25T15:59:30.146Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "6983cc90bad8c86ad44274c5acd6e395",
+        "contentDigest": "97ef0fe5e2dcd70010cda29aceb51546",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -761,7 +761,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "1bb327e493583eb82d8a2319d0ed16ad",
+        "contentDigest": "55900d94a6b894fdeda76c673ea8d781",
         "type": "Directory",
         "description": "Directory \"markdown\"",
         "owner": "gatsby-source-filesystem"
@@ -773,7 +773,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-04-25T15:42:32.709Z",
-      "accessTime": "2019-04-25T15:57:44.453Z",
+      "accessTime": "2019-04-25T15:59:35.859Z",
       "changeTime": "2019-04-25T15:42:32.709Z",
       "birthTime": "2019-04-17T14:20:30.997Z",
       "root": "/",
@@ -791,11 +791,11 @@
       "blksize": 4096,
       "ino": 20578749,
       "blocks": 0,
-      "atimeMs": 1556207864452.51,
+      "atimeMs": 1556207975859.094,
       "mtimeMs": 1556206952708.8213,
       "ctimeMs": 1556206952708.8213,
       "birthtimeMs": 1555510830996.8757,
-      "atime": "2019-04-25T15:57:44.453Z",
+      "atime": "2019-04-25T15:59:35.859Z",
       "mtime": "2019-04-25T15:42:32.709Z",
       "ctime": "2019-04-25T15:42:32.709Z",
       "birthtime": "2019-04-17T14:20:30.997Z"
@@ -805,7 +805,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "9d3d68b42f0d871736b7c430ca2eb85c",
+        "contentDigest": "fda72c9fcc01714c73cf2035195451bf",
         "type": "Directory",
         "description": "Directory \"markdown/blog\"",
         "owner": "gatsby-source-filesystem"
@@ -814,11 +814,11 @@
       "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog",
       "relativePath": "blog",
       "extension": "",
-      "size": 96,
-      "prettySize": "96 B",
-      "modifiedTime": "2019-04-25T15:47:58.551Z",
-      "accessTime": "2019-04-25T15:57:44.454Z",
-      "changeTime": "2019-04-25T15:47:58.551Z",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-04-25T15:57:50.457Z",
+      "accessTime": "2019-04-25T15:59:35.861Z",
+      "changeTime": "2019-04-25T15:57:50.457Z",
       "birthTime": "2019-04-17T14:20:30.997Z",
       "root": "/",
       "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown",
@@ -828,20 +828,20 @@
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 3,
+      "nlink": 4,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 20578750,
       "blocks": 0,
-      "atimeMs": 1556207864454.0627,
-      "mtimeMs": 1556207278550.7688,
-      "ctimeMs": 1556207278550.7688,
+      "atimeMs": 1556207975860.681,
+      "mtimeMs": 1556207870456.9258,
+      "ctimeMs": 1556207870456.9258,
       "birthtimeMs": 1555510830996.9385,
-      "atime": "2019-04-25T15:57:44.454Z",
-      "mtime": "2019-04-25T15:47:58.551Z",
-      "ctime": "2019-04-25T15:47:58.551Z",
+      "atime": "2019-04-25T15:59:35.861Z",
+      "mtime": "2019-04-25T15:57:50.457Z",
+      "ctime": "2019-04-25T15:57:50.457Z",
       "birthtime": "2019-04-17T14:20:30.997Z"
     },
     "4e8faa87-fe69-5d5d-b27a-4084e1ccc403": {
@@ -851,7 +851,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "49aaa1d882d537348a45e6103fc91f71",
+        "contentDigest": "bfef42290262029662cf32adf0befc5e",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"markdown/blog/index.md\"",
@@ -861,11 +861,11 @@
       "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog/index.md",
       "relativePath": "blog/index.md",
       "extension": "md",
-      "size": 116,
-      "prettySize": "116 B",
-      "modifiedTime": "2019-04-25T15:57:25.057Z",
-      "accessTime": "2019-04-25T15:57:25.057Z",
-      "changeTime": "2019-04-25T15:57:25.057Z",
+      "size": 125,
+      "prettySize": "125 B",
+      "modifiedTime": "2019-04-25T15:59:24.853Z",
+      "accessTime": "2019-04-25T15:59:24.852Z",
+      "changeTime": "2019-04-25T15:59:24.853Z",
       "birthTime": "2019-04-25T15:47:58.551Z",
       "root": "/",
       "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog",
@@ -882,14 +882,85 @@
       "blksize": 4096,
       "ino": 21898850,
       "blocks": 8,
-      "atimeMs": 1556207845056.6199,
-      "mtimeMs": 1556207845056.9475,
-      "ctimeMs": 1556207845056.9475,
+      "atimeMs": 1556207964852.4841,
+      "mtimeMs": 1556207964852.8108,
+      "ctimeMs": 1556207964852.8108,
       "birthtimeMs": 1556207278550.751,
-      "atime": "2019-04-25T15:57:25.057Z",
-      "mtime": "2019-04-25T15:57:25.057Z",
-      "ctime": "2019-04-25T15:57:25.057Z",
+      "atime": "2019-04-25T15:59:24.852Z",
+      "mtime": "2019-04-25T15:59:24.853Z",
+      "ctime": "2019-04-25T15:59:24.853Z",
       "birthtime": "2019-04-25T15:47:58.551Z"
+    },
+    "d42c99b7-60a6-5a60-8849-6feb905c5756": {
+      "id": "d42c99b7-60a6-5a60-8849-6feb905c5756",
+      "children": [
+        "950b73ba-1642-589a-a386-af21cf92db23"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5fb11416ebe0545ac545109a94437bbe",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"markdown/blog/test-blog27.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog/test-blog27.md",
+      "relativePath": "blog/test-blog27.md",
+      "extension": "md",
+      "size": 126,
+      "prettySize": "126 B",
+      "modifiedTime": "2019-04-25T15:59:19.152Z",
+      "accessTime": "2019-04-25T15:59:19.533Z",
+      "changeTime": "2019-04-25T15:59:19.152Z",
+      "birthTime": "2019-04-25T15:57:50.457Z",
+      "root": "/",
+      "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog",
+      "base": "test-blog27.md",
+      "ext": ".md",
+      "name": "test-blog27",
+      "relativeDirectory": "blog",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21899918,
+      "blocks": 8,
+      "atimeMs": 1556207959532.7974,
+      "mtimeMs": 1556207959152.4312,
+      "ctimeMs": 1556207959152.4312,
+      "birthtimeMs": 1556207870456.9138,
+      "atime": "2019-04-25T15:59:19.533Z",
+      "mtime": "2019-04-25T15:59:19.152Z",
+      "ctime": "2019-04-25T15:59:19.152Z",
+      "birthtime": "2019-04-25T15:57:50.457Z"
+    },
+    "950b73ba-1642-589a-a386-af21cf92db23": {
+      "id": "950b73ba-1642-589a-a386-af21cf92db23",
+      "children": [],
+      "parent": "d42c99b7-60a6-5a60-8849-6feb905c5756",
+      "internal": {
+        "content": "d\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "7bd1de0caabc2cff1b07b364256addd6",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "test blog27",
+        "path": "/test1",
+        "long-title": "lkjadf",
+        "description": "d",
+        "date": "",
+        "summary": "d",
+        "keywords": "d",
+        "google-preview": "d"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "d\n",
+      "fileAbsolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog/test-blog27.md"
     },
     "0adeb671-5062-51cf-8335-a4cb3db386c5": {
       "id": "0adeb671-5062-51cf-8335-a4cb3db386c5",
@@ -898,7 +969,7 @@
       "internal": {
         "content": "d",
         "type": "MarkdownRemark",
-        "contentDigest": "4dca54601c6f202d5c251e86f907652c",
+        "contentDigest": "c89ab8053a2b8a3a5635c807ef5c0a3e",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
@@ -907,12 +978,38 @@
         "long-title": "lkjadf",
         "description": "d",
         "summary": "d",
+        "date": "",
         "keywords": "d",
         "google-preview": "d"
       },
       "excerpt": "",
       "rawMarkdownBody": "d",
       "fileAbsolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog/index.md"
+    },
+    "SitePage /test1": {
+      "jsonName": "test-1-c91",
+      "internalComponentName": "ComponentTest1",
+      "path": "/test1",
+      "component": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/Blog.js",
+      "componentChunkName": "component---src-templates-blog-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "title": "test blog27",
+        "date": "",
+        "html": "<p>d</p>"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/Blog.js",
+      "id": "SitePage /test1",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "48d2b9800061625f66208e8a372e17d9",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
     },
     "SitePage /": {
       "jsonName": "index",
@@ -934,76 +1031,6 @@
         "description": "81b9d01d-2a74-5843-a80e-74dc41907bd3",
         "owner": "internal-data-bridge"
       }
-    },
-    "d42c99b7-60a6-5a60-8849-6feb905c5756": {
-      "id": "d42c99b7-60a6-5a60-8849-6feb905c5756",
-      "children": [
-        "950b73ba-1642-589a-a386-af21cf92db23"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "a6535ba4f6260b6ba072122ea537831a",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"markdown/blog/test-blog27.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "markdown-pages",
-      "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog/test-blog27.md",
-      "relativePath": "blog/test-blog27.md",
-      "extension": "md",
-      "size": 117,
-      "prettySize": "117 B",
-      "modifiedTime": "2019-04-25T15:57:50.457Z",
-      "accessTime": "2019-04-25T15:57:51.967Z",
-      "changeTime": "2019-04-25T15:57:50.457Z",
-      "birthTime": "2019-04-25T15:57:50.457Z",
-      "root": "/",
-      "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog",
-      "base": "test-blog27.md",
-      "ext": ".md",
-      "name": "test-blog27",
-      "relativeDirectory": "blog",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 21899918,
-      "blocks": 8,
-      "atimeMs": 1556207871967.2742,
-      "mtimeMs": 1556207870457.4238,
-      "ctimeMs": 1556207870457.4238,
-      "birthtimeMs": 1556207870456.9138,
-      "atime": "2019-04-25T15:57:51.967Z",
-      "mtime": "2019-04-25T15:57:50.457Z",
-      "ctime": "2019-04-25T15:57:50.457Z",
-      "birthtime": "2019-04-25T15:57:50.457Z"
-    },
-    "950b73ba-1642-589a-a386-af21cf92db23": {
-      "id": "950b73ba-1642-589a-a386-af21cf92db23",
-      "children": [],
-      "parent": "d42c99b7-60a6-5a60-8849-6feb905c5756",
-      "internal": {
-        "content": "d\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "c84ca25523f016648176d1d7f61f89e8",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": "test blog27",
-        "path": "/test1",
-        "long-title": "lkjadf",
-        "description": "d",
-        "summary": "d",
-        "keywords": "d",
-        "google-preview": "d"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "d\n",
-      "fileAbsolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog/test-blog27.md"
     }
   },
   "status": {
@@ -1012,32 +1039,44 @@
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {}
+    "connections": {
+      "MarkdownRemark": [
+        "/"
+      ]
+    }
   },
   "jsonDataPaths": {
     "denis-549": "202/path---denis-549-9fd-Zoyewv4IsbM3KCr4EJViYEI8wp8",
     "hello-cms-bb1": "643/path---hello-cms-bb-1-538-L9UePJgLZEVKbpbB5CsDhPQ5JM",
     "nata-d23": "308/path---nata-d-23-624-DubY8t7yiC12Hop2cs92fnqPFbI",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "index": "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "index": "555/path---index-6a9-EM4BoTaQUXxBqt1kuUlCHOvDU",
     "our-work-cf1": "27/path---our-work-cf-1-d45-8rUWHJO83FUrM2nXtbuyJw2YIs4",
     "sdf-a2b": "302/path---sdf-a-2-b-af5-t0p1RiO1jnhXWdIGbR7BbpZ7xo8",
-    "test-1-c91": "478/path---test-1-c-91-d66-9XwIcKH3yu2SbKdjqMXtoOVm8"
+    "test-1-c91": "619/path---test-1-c-91-d66-iu3fcMQPtk6YIlTOk39CQDS0ps"
   },
   "components": {
     "/Users/deniskozyrev/Dev/DashBouquet/CMS2/.cache/dev-404-page.js": {
-      "query": "",
       "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/.cache/dev-404-page.js",
+      "query": "",
       "pages": [
         "/dev-404-page/"
       ],
       "isInBootstrap": true
     },
     "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/pages/index.js": {
-      "query": "",
       "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/pages/index.js",
+      "query": "query usersDeniskozyrevDevDashBouquetCms2SrcPagesIndexJs1441994560 {\n  allMarkdownRemark {\n    edges {\n      node {\n        frontmatter {\n          title\n          path\n          date\n        }\n        html\n      }\n    }\n  }\n}\n",
       "pages": [
         "/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/Blog.js": {
+      "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/Blog.js",
+      "query": "",
+      "pages": [
+        "/test1"
       ],
       "isInBootstrap": true
     }
