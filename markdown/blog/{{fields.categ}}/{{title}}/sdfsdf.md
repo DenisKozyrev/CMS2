@@ -1,6 +1,6 @@
 ---
-categ: artifact13
-path: /sfsdf
+categ: artifact14
+path: /path
 title: sdfsdf
 long-title: df
 description: df
