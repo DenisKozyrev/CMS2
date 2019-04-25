@@ -28,7 +28,7 @@ collections:
       - { name: body, label: Body, widget: markdown }
   - name: blog    
     label: Blog
-    folder: markdown/blog/{{slug}}
+    folder: "markdown/blog/{{slug}}"
     slug: "{{title}}"
     create: true
     fields:
