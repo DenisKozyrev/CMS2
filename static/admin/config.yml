@@ -51,6 +51,20 @@ collections:
           - { name: description, label: Description,  widget: string }
           - { name: summary, label: Summary (introtext),  widget: string }
           - { name: keywords, label: Focus keywords, widget: string, hint: "Enter your keywords comma-separated (table, chair)" }
-  
+  - name: post    
+    label: Post
+    folder: markdown/post/
+    slug: "{{category}}-{{description}}"
+    create: true
+    fields:
+      - { name: category, label: Category, widget: string }
+      - { name: path, label: Path, widget: string }
+      - { name: title, label: Title, widget: string }
+      - { name: long-title, label: Long Title, widget: string }
+      - { name: description, label: Description,  widget: string }
+      - { name: summary, label: Summary (introtext),  widget: string }
+      - { name: keywords, label: Focus keywords, widget: string, hint: "Enter your keywords comma-separated (table, chair)" }
+      - { name: google-preview, label: Google Preview, widget: text }
+      - { name: body, label: Body, widget: markdown }
       
       
