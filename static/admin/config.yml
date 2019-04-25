@@ -28,9 +28,9 @@ collections:
       - { name: body, label: Body, widget: markdown }
   - name: blog    
     label: Blog
-    identifier_field: title
+    identifier_field: path
     slug: "{{title}}"
-    folder: "markdown/blog/{{title}}"
+    folder: "markdown/blog/{{path}}"
     create: true
     fields:
       - { name: path, label: Path, widget: string }
