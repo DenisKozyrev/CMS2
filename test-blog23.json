@@ -1,0 +1,1 @@
+{"type":"PR","pr":{"number":4,"head":"96c4413247c0cf0460bead0ea2a39a6f9125235b"},"user":"deniskozyrev55","status":"draft","branch":"cms/test-blog23","collection":"blog","title":"test blog23","description":"d","objects":{"entry":{"path":"markdown/blog/{{slug}}/test-blog23.md","sha":"22ad73edc3be73ef3f83d45e9e37963f3390f57a"},"files":[]},"timeStamp":"2019-04-25T14:41:56.449Z"}
