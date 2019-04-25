@@ -1031,6 +1031,190 @@
         "description": "81b9d01d-2a74-5843-a80e-74dc41907bd3",
         "owner": "internal-data-bridge"
       }
+    },
+    "11e39d9e-52c5-5cac-b6c7-02902ca5f6c1": {
+      "id": "11e39d9e-52c5-5cac-b6c7-02902ca5f6c1",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "dc3903aae57161918d616a94c4a872b2",
+        "type": "Directory",
+        "description": "Directory \"markdown/blog/{{categ}}\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog/{{categ}}",
+      "relativePath": "blog/{{categ}}",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-04-25T16:06:00.959Z",
+      "accessTime": "2019-04-25T16:06:01.023Z",
+      "changeTime": "2019-04-25T16:06:00.959Z",
+      "birthTime": "2019-04-25T16:06:00.959Z",
+      "root": "/",
+      "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog",
+      "base": "{{categ}}",
+      "ext": "",
+      "name": "{{categ}}",
+      "relativeDirectory": "blog",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21900725,
+      "blocks": 0,
+      "atimeMs": 1556208361023.4983,
+      "mtimeMs": 1556208360958.7124,
+      "ctimeMs": 1556208360958.7124,
+      "birthtimeMs": 1556208360958.6409,
+      "atime": "2019-04-25T16:06:01.023Z",
+      "mtime": "2019-04-25T16:06:00.959Z",
+      "ctime": "2019-04-25T16:06:00.959Z",
+      "birthtime": "2019-04-25T16:06:00.959Z"
+    },
+    "eeb48c29-cbcb-5f43-90f1-5f5863ea9c0a": {
+      "id": "eeb48c29-cbcb-5f43-90f1-5f5863ea9c0a",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e10f2dff9ffbb12292f848b2060e1213",
+        "type": "Directory",
+        "description": "Directory \"markdown/blog/{{categ}}/{{title}}\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog/{{categ}}/{{title}}",
+      "relativePath": "blog/{{categ}}/{{title}}",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-04-25T16:06:00.959Z",
+      "accessTime": "2019-04-25T16:06:01.024Z",
+      "changeTime": "2019-04-25T16:06:00.959Z",
+      "birthTime": "2019-04-25T16:06:00.959Z",
+      "root": "/",
+      "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog/{{categ}}",
+      "base": "{{title}}",
+      "ext": "",
+      "name": "{{title}}",
+      "relativeDirectory": "blog/{{categ}}",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21900726,
+      "blocks": 0,
+      "atimeMs": 1556208361024.4294,
+      "mtimeMs": 1556208360958.9404,
+      "ctimeMs": 1556208360958.9404,
+      "birthtimeMs": 1556208360958.7068,
+      "atime": "2019-04-25T16:06:01.024Z",
+      "mtime": "2019-04-25T16:06:00.959Z",
+      "ctime": "2019-04-25T16:06:00.959Z",
+      "birthtime": "2019-04-25T16:06:00.959Z"
+    },
+    "137d83a5-e702-5981-8d60-7150cda01aec": {
+      "id": "137d83a5-e702-5981-8d60-7150cda01aec",
+      "children": [
+        "2c77aada-58db-5228-ae03-3c4a71cf854b"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "87e52363f5e3555416c8153ad6a17a57",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"markdown/blog/{{categ}}/{{title}}/sdfsdf.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog/{{categ}}/{{title}}/sdfsdf.md",
+      "relativePath": "blog/{{categ}}/{{title}}/sdfsdf.md",
+      "extension": "md",
+      "size": 129,
+      "prettySize": "129 B",
+      "modifiedTime": "2019-04-25T16:06:00.959Z",
+      "accessTime": "2019-04-25T16:06:00.989Z",
+      "changeTime": "2019-04-25T16:06:00.959Z",
+      "birthTime": "2019-04-25T16:06:00.959Z",
+      "root": "/",
+      "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog/{{categ}}/{{title}}",
+      "base": "sdfsdf.md",
+      "ext": ".md",
+      "name": "sdfsdf",
+      "relativeDirectory": "blog/{{categ}}/{{title}}",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21900727,
+      "blocks": 8,
+      "atimeMs": 1556208360988.8982,
+      "mtimeMs": 1556208360959.1174,
+      "ctimeMs": 1556208360959.1174,
+      "birthtimeMs": 1556208360958.9343,
+      "atime": "2019-04-25T16:06:00.989Z",
+      "mtime": "2019-04-25T16:06:00.959Z",
+      "ctime": "2019-04-25T16:06:00.959Z",
+      "birthtime": "2019-04-25T16:06:00.959Z"
+    },
+    "2c77aada-58db-5228-ae03-3c4a71cf854b": {
+      "id": "2c77aada-58db-5228-ae03-3c4a71cf854b",
+      "children": [],
+      "parent": "137d83a5-e702-5981-8d60-7150cda01aec",
+      "internal": {
+        "content": "df\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "51b19556a05b1c87133ab09bf951444f",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "sdfsdf",
+        "categ": "artifact",
+        "path": "/sfsdf",
+        "long-title": "df",
+        "description": "df",
+        "summary": "df",
+        "keywords": "df",
+        "google-preview": "df"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "df\n",
+      "fileAbsolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog/{{categ}}/{{title}}/sdfsdf.md"
+    },
+    "SitePage /sfsdf": {
+      "jsonName": "sfsdf-016",
+      "internalComponentName": "ComponentSfsdf",
+      "path": "/sfsdf",
+      "component": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/Blog.js",
+      "componentChunkName": "component---src-templates-blog-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "title": "sdfsdf",
+        "date": null,
+        "html": "<p>df</p>"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/Blog.js",
+      "id": "SitePage /sfsdf",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "53bda8699284dbc19454cb573f022bc1",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
@@ -1050,10 +1234,11 @@
     "hello-cms-bb1": "643/path---hello-cms-bb-1-538-L9UePJgLZEVKbpbB5CsDhPQ5JM",
     "nata-d23": "308/path---nata-d-23-624-DubY8t7yiC12Hop2cs92fnqPFbI",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "index": "555/path---index-6a9-EM4BoTaQUXxBqt1kuUlCHOvDU",
+    "index": "769/path---index-6a9-BDJXGWTzr7ED2PzZLTygZBhrs",
     "our-work-cf1": "27/path---our-work-cf-1-d45-8rUWHJO83FUrM2nXtbuyJw2YIs4",
     "sdf-a2b": "302/path---sdf-a-2-b-af5-t0p1RiO1jnhXWdIGbR7BbpZ7xo8",
-    "test-1-c91": "619/path---test-1-c-91-d66-iu3fcMQPtk6YIlTOk39CQDS0ps"
+    "test-1-c91": "619/path---test-1-c-91-d66-iu3fcMQPtk6YIlTOk39CQDS0ps",
+    "sfsdf-016": "533/path---sfsdf-016-d20-4NyyO7tTszSxZA3PEuVBGwaQNi8"
   },
   "components": {
     "/Users/deniskozyrev/Dev/DashBouquet/CMS2/.cache/dev-404-page.js": {
@@ -1073,12 +1258,13 @@
       "isInBootstrap": true
     },
     "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/Blog.js": {
-      "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/Blog.js",
       "query": "",
+      "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/Blog.js",
       "pages": [
-        "/test1"
+        "/test1",
+        "/sfsdf"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     }
   },
   "staticQueryComponents": {}
