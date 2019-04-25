@@ -1,6 +1,6 @@
 ---
 path: /denis
-title: Artifact
+title: Artifact12
 long-title: fds
 description: sdf
 summary: sdf
