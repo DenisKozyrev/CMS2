@@ -5,6 +5,16 @@
         "path": "/"
     },
     {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "msd-fmn-907",
+        "path": "/,msd,fmn"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "artifact-f72",
+        "path": "/Artifact"
+    },
+    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
