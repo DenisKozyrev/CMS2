@@ -18,5 +18,10 @@
         "componentChunkName": "component---src-templates-blog-js",
         "jsonName": "sdf-a2b",
         "path": "/sdf"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "test-1-c91",
+        "path": "/test1"
     }
 ]

@@ -1094,6 +1094,145 @@
       "excerpt": "",
       "rawMarkdownBody": "d\n",
       "fileAbsolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/{{slug}}/test-blog25.md"
+    },
+    "629dd88f-945b-5d31-9b80-6cf91e01e5dd": {
+      "id": "629dd88f-945b-5d31-9b80-6cf91e01e5dd",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "abe5142136e0581bbdab05abe773ab60",
+        "type": "Directory",
+        "description": "Directory \"markdown/blog/{{path}}\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog/{{path}}",
+      "relativePath": "blog/{{path}}",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-04-25T15:35:47.922Z",
+      "accessTime": "2019-04-25T15:35:47.922Z",
+      "changeTime": "2019-04-25T15:35:47.922Z",
+      "birthTime": "2019-04-25T15:35:47.922Z",
+      "root": "/",
+      "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog",
+      "base": "{{path}}",
+      "ext": "",
+      "name": "{{path}}",
+      "relativeDirectory": "blog",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21898071,
+      "blocks": 0,
+      "atimeMs": 1556206547922.1548,
+      "mtimeMs": 1556206547922.4536,
+      "ctimeMs": 1556206547922.4536,
+      "birthtimeMs": 1556206547922.1548,
+      "atime": "2019-04-25T15:35:47.922Z",
+      "mtime": "2019-04-25T15:35:47.922Z",
+      "ctime": "2019-04-25T15:35:47.922Z",
+      "birthtime": "2019-04-25T15:35:47.922Z"
+    },
+    "f6342e4e-b09e-532e-99e5-65d33afe8466": {
+      "id": "f6342e4e-b09e-532e-99e5-65d33afe8466",
+      "children": [
+        "4e2ed863-ac17-5a36-b031-f6968ab3ca9b"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a6535ba4f6260b6ba072122ea537831a",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"markdown/blog/{{path}}/test-blog27.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog/{{path}}/test-blog27.md",
+      "relativePath": "blog/{{path}}/test-blog27.md",
+      "extension": "md",
+      "size": 117,
+      "prettySize": "117 B",
+      "modifiedTime": "2019-04-25T15:35:47.923Z",
+      "accessTime": "2019-04-25T15:35:47.958Z",
+      "changeTime": "2019-04-25T15:35:47.923Z",
+      "birthTime": "2019-04-25T15:35:47.922Z",
+      "root": "/",
+      "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog/{{path}}",
+      "base": "test-blog27.md",
+      "ext": ".md",
+      "name": "test-blog27",
+      "relativeDirectory": "blog/{{path}}",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21898072,
+      "blocks": 8,
+      "atimeMs": 1556206547958.189,
+      "mtimeMs": 1556206547922.6938,
+      "ctimeMs": 1556206547922.6938,
+      "birthtimeMs": 1556206547922.445,
+      "atime": "2019-04-25T15:35:47.958Z",
+      "mtime": "2019-04-25T15:35:47.923Z",
+      "ctime": "2019-04-25T15:35:47.923Z",
+      "birthtime": "2019-04-25T15:35:47.922Z"
+    },
+    "4e2ed863-ac17-5a36-b031-f6968ab3ca9b": {
+      "id": "4e2ed863-ac17-5a36-b031-f6968ab3ca9b",
+      "children": [],
+      "parent": "f6342e4e-b09e-532e-99e5-65d33afe8466",
+      "internal": {
+        "content": "d\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "782858c42deb9f90e54ec04d815ef9c4",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "test blog27",
+        "path": "/test1",
+        "long-title": "lkjadf",
+        "description": "d",
+        "summary": "d",
+        "keywords": "d",
+        "google-preview": "d"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "d\n",
+      "fileAbsolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blog/{{path}}/test-blog27.md"
+    },
+    "SitePage /test1": {
+      "jsonName": "test-1-c91",
+      "internalComponentName": "ComponentTest1",
+      "path": "/test1",
+      "component": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/Blog.js",
+      "componentChunkName": "component---src-templates-blog-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "title": "test blog27",
+        "date": null,
+        "html": "<p>d</p>"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/Blog.js",
+      "id": "SitePage /test1",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "85c8969e0c27c43e7bf68e1f081a911c",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
@@ -1113,18 +1252,19 @@
     "hello-cms-bb1": "643/path---hello-cms-bb-1-538-L9UePJgLZEVKbpbB5CsDhPQ5JM",
     "nata-d23": "308/path---nata-d-23-624-DubY8t7yiC12Hop2cs92fnqPFbI",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "index": "229/path---index-6a9-LHt9Jnkw5cPuXhthoOY11idfPM4",
+    "index": "676/path---index-6a9-Kh43VBd0HoIN5fDMGMaS61ccBVk",
     "our-work-cf1": "27/path---our-work-cf-1-d45-8rUWHJO83FUrM2nXtbuyJw2YIs4",
-    "sdf-a2b": "302/path---sdf-a-2-b-af5-t0p1RiO1jnhXWdIGbR7BbpZ7xo8"
+    "sdf-a2b": "302/path---sdf-a-2-b-af5-t0p1RiO1jnhXWdIGbR7BbpZ7xo8",
+    "test-1-c91": "478/path---test-1-c-91-d66-9XwIcKH3yu2SbKdjqMXtoOVm8"
   },
   "components": {
     "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/Blog.js": {
       "query": "",
       "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/Blog.js",
       "pages": [
-        "/nata",
         "/helloCMS",
-        "/sdf"
+        "/sdf",
+        "/test1"
       ],
       "isInBootstrap": false
     },
