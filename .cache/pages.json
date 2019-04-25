@@ -5,6 +5,11 @@
         "path": "/"
     },
     {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "denis-549",
+        "path": "/denis"
+    },
+    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
@@ -13,5 +18,10 @@
         "componentChunkName": "component---src-templates-blog-js",
         "jsonName": "hello-cms-bb1",
         "path": "/helloCMS"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "nata-d23",
+        "path": "/nata"
     }
 ]

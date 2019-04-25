@@ -13,25 +13,32 @@ public_folder: src/assets
 site_url: https://cms50.netlify.com
 
 collections:
-  - name: blog
-    label: Blog
-    folder: markdown/blog
+  - name: our-work
+    label: Our work
+    folder: markdown/ourWork
     create: true
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: date }
-      - { name: title, label: Title }
+      - { name: path, label: Path, widget: string, default: /our-work/ }
+      - { name: title, label: Title, widget: string }
+      - { name: long-title, label: Long Title, widget: string }
+      - { name: description, label: Description,  widget: string }
+      - { name: summary, label: Summary (introtext),  widget: string }
+      - { name: keywords, label: Focus keywords, widget: string, hint: "Enter your keywords comma-separated (table, chair)" }
+      - { name: google-preview, label: Google Preview, widget: text }
       - { name: body, label: Body, widget: markdown }
-  - name: "pages"
-    label: "Pages"
-    folder: markdown/pages
+  - name: blog    
+    label: Blog
+    slug: blog/{{title}}
+    folder: markdown/blog/{{title}}/
     create: true
-    files:
-      - file: "markdown/pages/index.md"
-        label: "Landing Page"
-        name: "index"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Meta description, name: meta Description, widget: string}
-          - {label: Meta Keywords, name: meta Keywords, widget: string}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+    fields:
+      - { name: path, label: Path, widget: string, default: /our-work/ }
+      - { name: title, label: Title, widget: string }
+      - { name: long-title, label: Long Title, widget: string }
+      - { name: description, label: Description,  widget: string }
+      - { name: summary, label: Summary (introtext),  widget: string }
+      - { name: keywords, label: Focus keywords, widget: string, hint: "Enter your keywords comma-separated (table, chair)" }
+      - { name: google-preview, label: Google Preview, widget: text }
+      - { name: body, label: Body, widget: markdown }
+      
+      
