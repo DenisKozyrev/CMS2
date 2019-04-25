@@ -19,7 +19,6 @@ export const query = graphql`
       node {
         frontmatter {
           title
-          path
           date
         }
         html
