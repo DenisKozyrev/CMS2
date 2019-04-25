@@ -26,7 +26,8 @@ exports.createPages = async ({ actions, graphql }) => {
       return Promise.reject(result.errors)
     }
 
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    if(result.data.allMarkdownRemark.edges.length) {
+      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.path,
         component: BlogTemplate,
@@ -36,6 +37,7 @@ exports.createPages = async ({ actions, graphql }) => {
           html: node.html
         }, 
       })
-    })
+      })
+    }
   })
 }

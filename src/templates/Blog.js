@@ -2,7 +2,7 @@ import React from "react";
 
 const Blog= ({ pageContext }) => {
 
-  const { title, date, html } = pageContext ? pageContext : {};
+  const { title, date, html } = pageContext;
 
   return (
     <>
