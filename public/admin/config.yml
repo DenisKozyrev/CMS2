@@ -28,8 +28,8 @@ collections:
       - { name: body, label: Body, widget: markdown }
   - name: blog    
     label: Blog
-    slug: blog/{{title}}
-    folder: markdown/blog/{{title}}/
+    slug: /{{title}}
+    folder: "markdown/blog/{{path}}/"
     create: true
     fields:
       - { name: path, label: Path, widget: string, default: /our-work/ }
@@ -40,5 +40,6 @@ collections:
       - { name: keywords, label: Focus keywords, widget: string, hint: "Enter your keywords comma-separated (table, chair)" }
       - { name: google-preview, label: Google Preview, widget: text }
       - { name: body, label: Body, widget: markdown }
+  
       
       
