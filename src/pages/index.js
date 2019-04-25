@@ -6,7 +6,7 @@ const HomePage = ({ data }) => {
     <>
     {data.allMarkdownRemark.edges.length ? data.allMarkdownRemark.edges.map((edge, i) => (
       <div key={i}>{edge.node.frontmatter.title}</div>
-    )) : null}
+    )) : <div>Hello</div>}
     </>
   )
 }
