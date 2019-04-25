@@ -4,9 +4,9 @@ import { graphql } from "gatsby"
 const HomePage = ({ data }) => {
   return (
     <>
-    {data.allMarkdownRemark.edges.map((edge, i) => (
+    {data.allMarkdownRemark.edges.length ? data.allMarkdownRemark.edges.map((edge, i) => (
       <div key={i}>{edge.node.frontmatter.title}</div>
-    ))}
+    )) : null}
     </>
   )
 }
