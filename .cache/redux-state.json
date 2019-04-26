@@ -807,7 +807,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "e7c20bcd8b0a6d0b95dbf650b7c6fb9a",
+        "contentDigest": "fc9cb843db1f8d4d07a215827c5770a9",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"markdown/index.md\"",
@@ -817,11 +817,11 @@
       "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/index.md",
       "relativePath": "index.md",
       "extension": "md",
-      "size": 26,
-      "prettySize": "26 B",
-      "modifiedTime": "2019-04-26T09:02:58.974Z",
-      "accessTime": "2019-04-26T09:02:58.974Z",
-      "changeTime": "2019-04-26T09:02:58.974Z",
+      "size": 30,
+      "prettySize": "30 B",
+      "modifiedTime": "2019-04-26T09:05:23.455Z",
+      "accessTime": "2019-04-26T09:05:23.454Z",
+      "changeTime": "2019-04-26T09:05:23.455Z",
       "birthTime": "2019-04-26T08:33:30.362Z",
       "root": "/",
       "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown",
@@ -838,13 +838,13 @@
       "blksize": 4096,
       "ino": 21913138,
       "blocks": 8,
-      "atimeMs": 1556269378973.7197,
-      "mtimeMs": 1556269378974.1624,
-      "ctimeMs": 1556269378974.1624,
+      "atimeMs": 1556269523454.1743,
+      "mtimeMs": 1556269523454.566,
+      "ctimeMs": 1556269523454.566,
       "birthtimeMs": 1556267610362.1902,
-      "atime": "2019-04-26T09:02:58.974Z",
-      "mtime": "2019-04-26T09:02:58.974Z",
-      "ctime": "2019-04-26T09:02:58.974Z",
+      "atime": "2019-04-26T09:05:23.454Z",
+      "mtime": "2019-04-26T09:05:23.455Z",
+      "ctime": "2019-04-26T09:05:23.455Z",
       "birthtime": "2019-04-26T08:33:30.362Z"
     },
     "SitePage /": {
@@ -875,12 +875,12 @@
       "internal": {
         "content": "",
         "type": "MarkdownRemark",
-        "contentDigest": "114e68499ed244ec2c1f00f6a5a16c51",
+        "contentDigest": "eb964141b70c1c1e937992baf0de96b9",
         "owner": "gatsby-transformer-remark"
       },
       "frontmatter": {
         "title": "",
-        "slug": ""
+        "slug": "path"
       },
       "excerpt": "",
       "rawMarkdownBody": "",
