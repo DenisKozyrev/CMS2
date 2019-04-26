@@ -11,7 +11,7 @@ exports.createPages = async ({ actions, graphql }) => {
       allMarkdownRemark {
         edges {
           node {
-            frontmatter(filter: {category}) {
+            frontmatter {
               title
               path
             }

@@ -577,7 +577,7 @@
       "resolve": "/Users/deniskozyrev/Dev/DashBouquet/CMS2",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "7ccdc61f6ac19f78af96e6ffe7aec235",
+      "version": "2416156a5b2d88f923be0298c4ae5e99",
       "pluginOptions": {
         "plugins": []
       },
@@ -635,7 +635,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "eb87d715cf6f0065e93c22c74f01db20",
+        "contentDigest": "fbd4e84e7b81cd833bee19e114b09f8d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -746,12 +746,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-26T09:55:38.340Z",
+      "buildTime": "2019-04-26T10:07:00.094Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "85a19b91e9b2e7aa166989e880b75862",
+        "contentDigest": "d158c0a1df48d80e1756ff6d5ce374e1",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -761,7 +761,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "c76e534c2704f7dfeaec1e1ef4df63cf",
+        "contentDigest": "fad69a32739f4ce6554499c73a97f932",
         "type": "Directory",
         "description": "Directory \"markdown\"",
         "owner": "gatsby-source-filesystem"
@@ -770,11 +770,11 @@
       "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown",
       "relativePath": "",
       "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2019-04-26T09:25:12.424Z",
-      "accessTime": "2019-04-26T09:55:40.434Z",
-      "changeTime": "2019-04-26T09:25:12.424Z",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-04-26T09:58:36.360Z",
+      "accessTime": "2019-04-26T10:07:04.700Z",
+      "changeTime": "2019-04-26T09:58:36.360Z",
       "birthTime": "2019-04-26T08:30:52.918Z",
       "root": "/",
       "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2",
@@ -784,20 +784,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 4,
+      "nlink": 3,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 21912911,
       "blocks": 0,
-      "atimeMs": 1556272540434.4062,
-      "mtimeMs": 1556270712424.3599,
-      "ctimeMs": 1556270712424.3599,
+      "atimeMs": 1556273224700.1443,
+      "mtimeMs": 1556272716359.9756,
+      "ctimeMs": 1556272716359.9756,
       "birthtimeMs": 1556267452917.8555,
-      "atime": "2019-04-26T09:55:40.434Z",
-      "mtime": "2019-04-26T09:25:12.424Z",
-      "ctime": "2019-04-26T09:25:12.424Z",
+      "atime": "2019-04-26T10:07:04.700Z",
+      "mtime": "2019-04-26T09:58:36.360Z",
+      "ctime": "2019-04-26T09:58:36.360Z",
       "birthtime": "2019-04-26T08:30:52.918Z"
     },
     "99861789-c879-56fd-b0e6-0c0daaddd638": {
@@ -805,7 +805,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "7cabca84d4f82948070b91acdb8b3b24",
+        "contentDigest": "ff3a01af4960230cfaca8c2f3dc791eb",
         "type": "Directory",
         "description": "Directory \"markdown/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -817,7 +817,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-04-26T09:25:12.425Z",
-      "accessTime": "2019-04-26T09:55:40.436Z",
+      "accessTime": "2019-04-26T10:07:04.702Z",
       "changeTime": "2019-04-26T09:25:12.425Z",
       "birthTime": "2019-04-26T09:25:12.424Z",
       "root": "/",
@@ -835,11 +835,11 @@
       "blksize": 4096,
       "ino": 21918082,
       "blocks": 0,
-      "atimeMs": 1556272540436.115,
+      "atimeMs": 1556273224701.5715,
       "mtimeMs": 1556270712424.8738,
       "ctimeMs": 1556270712424.8738,
       "birthtimeMs": 1556270712424.3486,
-      "atime": "2019-04-26T09:55:40.436Z",
+      "atime": "2019-04-26T10:07:04.702Z",
       "mtime": "2019-04-26T09:25:12.425Z",
       "ctime": "2019-04-26T09:25:12.425Z",
       "birthtime": "2019-04-26T09:25:12.424Z"
@@ -864,7 +864,7 @@
       "size": 114,
       "prettySize": "114 B",
       "modifiedTime": "2019-04-26T09:54:50.076Z",
-      "accessTime": "2019-04-26T09:55:22.932Z",
+      "accessTime": "2019-04-26T10:05:36.028Z",
       "changeTime": "2019-04-26T09:54:50.076Z",
       "birthTime": "2019-04-26T09:25:12.425Z",
       "root": "/",
@@ -882,11 +882,11 @@
       "blksize": 4096,
       "ino": 21918083,
       "blocks": 8,
-      "atimeMs": 1556272522932.389,
+      "atimeMs": 1556273136028.235,
       "mtimeMs": 1556272490076.145,
       "ctimeMs": 1556272490076.145,
       "birthtimeMs": 1556270712424.5977,
-      "atime": "2019-04-26T09:55:22.932Z",
+      "atime": "2019-04-26T10:05:36.028Z",
       "mtime": "2019-04-26T09:54:50.076Z",
       "ctime": "2019-04-26T09:54:50.076Z",
       "birthtime": "2019-04-26T09:25:12.425Z"
@@ -911,7 +911,7 @@
       "size": 139,
       "prettySize": "139 B",
       "modifiedTime": "2019-04-26T09:54:46.349Z",
-      "accessTime": "2019-04-26T09:55:22.933Z",
+      "accessTime": "2019-04-26T10:05:36.031Z",
       "changeTime": "2019-04-26T09:54:46.349Z",
       "birthTime": "2019-04-26T09:25:12.425Z",
       "root": "/",
@@ -929,11 +929,11 @@
       "blksize": 4096,
       "ino": 21918084,
       "blocks": 8,
-      "atimeMs": 1556272522932.573,
+      "atimeMs": 1556273136031.133,
       "mtimeMs": 1556272486349.2632,
       "ctimeMs": 1556272486349.2632,
       "birthtimeMs": 1556270712424.868,
-      "atime": "2019-04-26T09:55:22.933Z",
+      "atime": "2019-04-26T10:05:36.031Z",
       "mtime": "2019-04-26T09:54:46.349Z",
       "ctime": "2019-04-26T09:54:46.349Z",
       "birthtime": "2019-04-26T09:25:12.425Z"
@@ -984,30 +984,6 @@
       "rawMarkdownBody": "body\n",
       "fileAbsolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/posts/blog-artifact-title.md"
     },
-    "SitePage /sdf": {
-      "jsonName": "sdf-d97",
-      "internalComponentName": "ComponentSdf",
-      "path": "/sdf",
-      "component": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/BlogPost.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "isCreatedByStatefulCreatePages": false,
-      "context": {
-        "title": "title",
-        "html": "<p>body</p>"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/BlogPost.js",
-      "id": "SitePage /sdf",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "ee86a6943d0e628829bff73bdb4f4859",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /": {
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
@@ -1032,28 +1008,17 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "958ababe84f44e0cab24ae5be70e3b38"
+    "PLUGINS_HASH": "0afad42b8c5653303602c3d10cd86e4c"
   },
   "componentDataDependencies": {
     "nodes": {},
     "connections": {}
   },
   "jsonDataPaths": {
-    "index": "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "path-d6f": "748/path---path-d-6-f-fd7-Vn89cFbpTftZdM9tYuwQnPwTGEM",
-    "sdf-d97": "312/path---sdf-d-97-e8b-MIGtQaxAtKQUaPY2xoUytYUbEfk"
+    "index": "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8"
   },
   "components": {
-    "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/BlogPost.js": {
-      "query": "",
-      "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/BlogPost.js",
-      "pages": [
-        "/path",
-        "/sdf"
-      ],
-      "isInBootstrap": false
-    },
     "/Users/deniskozyrev/Dev/DashBouquet/CMS2/.cache/dev-404-page.js": {
       "query": "",
       "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/.cache/dev-404-page.js",
