@@ -7,8 +7,7 @@ accept_roles:
 
 publish_mode: editorial_workflow
 
-media_folder: static/assets
-public_folder: src/assets
+media_folder: src/assets/images
 
 site_url: https://cms50.netlify.com
 

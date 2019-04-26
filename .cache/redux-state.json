@@ -1,0 +1,1480 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ff5dece89a0b4b9e2fd844c9792af75f",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a2858de57cec6d5bbe5338d63990b873",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "bbdfc194a5aff336f4934fd93fb3a698",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "6ed7eaaef967809cfdfb822001cb3bad",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "af17c29c0215a46d53f65301de58edcf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "ccaf4249eb3a17cd40ff02b43d9d04cb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "52b51faa-3ef7-501b-9702-038878a6732d": {
+      "resolve": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/node_modules/gatsby-source-filesystem",
+      "id": "52b51faa-3ef7-501b-9702-038878a6732d",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.29",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown",
+        "name": "markdown-pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.29",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "2d36760fb6cdcd129a1c7dce7866a42a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
+      "resolve": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/node_modules/gatsby-transformer-remark",
+      "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
+      "name": "gatsby-transformer-remark",
+      "version": "2.3.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.3.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c76dea766ff926de2f6e7d7516ab18e1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4303f310-a6d0-5b7c-b8cd-0fc45931d73d": {
+      "resolve": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/node_modules/gatsby-plugin-netlify-cms",
+      "id": "4303f310-a6d0-5b7c-b8cd-0fc45931d73d",
+      "name": "gatsby-plugin-netlify-cms",
+      "version": "3.0.18",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateDevServer",
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [
+        "onInitialClientRender"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/node_modules/gatsby-plugin-netlify-cms",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify-cms",
+        "description": "A Gatsby plugin which generates the Netlify CMS single page app",
+        "version": "3.0.18",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "netlify",
+          "netlify-cms",
+          "cms"
+        ],
+        "author": "Shawn Erquhart <shawn@erquh.art>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@pieh/friendly-errors-webpack-plugin",
+            "version": "1.7.0-chalk-2"
+          },
+          {
+            "name": "html-webpack-exclude-assets-plugin",
+            "version": "^0.0.7"
+          },
+          {
+            "name": "html-webpack-plugin",
+            "version": "^3.2.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-css-extract-plugin",
+            "version": "^0.4.1"
+          },
+          {
+            "name": "netlify-identity-widget",
+            "version": "^1.4.11"
+          },
+          {
+            "name": "webpack",
+            "version": "^4.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.4.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.101"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^2.0.6"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "b0182ed3a5543b3d383ba534c9d62645",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/deniskozyrev/Dev/DashBouquet/CMS2",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "a350648f5538a102fb27b6b654e0dd87",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2",
+      "packageJson": {
+        "name": "dashbouquet",
+        "description": "",
+        "version": "0.1.0",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.3.16"
+          },
+          {
+            "name": "gatsby-plugin-netlify-cms",
+            "version": "^3.0.18"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.29"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.3.8"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^2.9.1"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.6"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.6"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.17.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5212eacba8f2d20583d6cb5806579511",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "81b9d01d-2a74-5843-a80e-74dc41907bd3": {
+      "resolve": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/node_modules/gatsby-plugin-page-creator",
+      "id": "81b9d01d-2a74-5843-a80e-74dc41907bd3",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.12",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c1d44242b765bf90d1766715819b5953",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {},
+      "port": 8000,
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-04-26T11:35:25.414Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "72832f4dd3a4d4f69c54b445cded1268",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "cf1f851e-ebde-508a-9f31-a1e56695b880": {
+      "id": "cf1f851e-ebde-508a-9f31-a1e56695b880",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "35e8878bf1e4613f0e9bbeff862e2cbd",
+        "type": "Directory",
+        "description": "Directory \"markdown\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown",
+      "relativePath": "",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-04-26T10:44:39.215Z",
+      "accessTime": "2019-04-26T11:35:30.972Z",
+      "changeTime": "2019-04-26T10:44:39.215Z",
+      "birthTime": "2019-04-26T08:30:52.918Z",
+      "root": "/",
+      "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2",
+      "base": "markdown",
+      "ext": "",
+      "name": "markdown",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21912911,
+      "blocks": 0,
+      "atimeMs": 1556278530972.123,
+      "mtimeMs": 1556275479214.7034,
+      "ctimeMs": 1556275479214.7034,
+      "birthtimeMs": 1556267452917.8555,
+      "atime": "2019-04-26T11:35:30.972Z",
+      "mtime": "2019-04-26T10:44:39.215Z",
+      "ctime": "2019-04-26T10:44:39.215Z",
+      "birthtime": "2019-04-26T08:30:52.918Z"
+    },
+    "a1e42f34-3d7c-5765-9f13-9bf8d62c1efa": {
+      "id": "a1e42f34-3d7c-5765-9f13-9bf8d62c1efa",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "57d1b0e8f4ef3ba09b857f0b1af99d00",
+        "type": "Directory",
+        "description": "Directory \"markdown/blogCategories\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blogCategories",
+      "relativePath": "blogCategories",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-04-26T10:44:39.216Z",
+      "accessTime": "2019-04-26T11:35:30.974Z",
+      "changeTime": "2019-04-26T10:44:39.216Z",
+      "birthTime": "2019-04-26T10:44:39.215Z",
+      "root": "/",
+      "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown",
+      "base": "blogCategories",
+      "ext": "",
+      "name": "blogCategories",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21936044,
+      "blocks": 0,
+      "atimeMs": 1556278530973.754,
+      "mtimeMs": 1556275479215.8193,
+      "ctimeMs": 1556275479215.8193,
+      "birthtimeMs": 1556275479214.6936,
+      "atime": "2019-04-26T11:35:30.974Z",
+      "mtime": "2019-04-26T10:44:39.216Z",
+      "ctime": "2019-04-26T10:44:39.216Z",
+      "birthtime": "2019-04-26T10:44:39.215Z"
+    },
+    "99861789-c879-56fd-b0e6-0c0daaddd638": {
+      "id": "99861789-c879-56fd-b0e6-0c0daaddd638",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "9cb6eb896e2d457f012433aebc5ca78e",
+        "type": "Directory",
+        "description": "Directory \"markdown/posts\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/posts",
+      "relativePath": "posts",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2019-04-26T10:24:20.176Z",
+      "accessTime": "2019-04-26T11:35:30.974Z",
+      "changeTime": "2019-04-26T10:24:20.176Z",
+      "birthTime": "2019-04-26T09:25:12.424Z",
+      "root": "/",
+      "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown",
+      "base": "posts",
+      "ext": "",
+      "name": "posts",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21918082,
+      "blocks": 0,
+      "atimeMs": 1556278530973.7808,
+      "mtimeMs": 1556274260175.5344,
+      "ctimeMs": 1556274260175.5344,
+      "birthtimeMs": 1556270712424.3486,
+      "atime": "2019-04-26T11:35:30.974Z",
+      "mtime": "2019-04-26T10:24:20.176Z",
+      "ctime": "2019-04-26T10:24:20.176Z",
+      "birthtime": "2019-04-26T09:25:12.424Z"
+    },
+    "f88b6181-5227-594a-bc87-88a7ea27c2cb": {
+      "id": "f88b6181-5227-594a-bc87-88a7ea27c2cb",
+      "children": [
+        "679cb962-0943-5ebb-9de4-ab839693faae"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3383c4f97ced37412f24b8f1afef1014",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"markdown/blogCategories/blog-categories.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blogCategories/blog-categories.md",
+      "relativePath": "blogCategories/blog-categories.md",
+      "extension": "md",
+      "size": 140,
+      "prettySize": "140 B",
+      "modifiedTime": "2019-04-26T10:44:39.216Z",
+      "accessTime": "2019-04-26T11:35:30.974Z",
+      "changeTime": "2019-04-26T10:44:39.216Z",
+      "birthTime": "2019-04-26T10:44:39.216Z",
+      "root": "/",
+      "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blogCategories",
+      "base": "blog-categories.md",
+      "ext": ".md",
+      "name": "blog-categories",
+      "relativeDirectory": "blogCategories",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21936045,
+      "blocks": 8,
+      "atimeMs": 1556278530973.8574,
+      "mtimeMs": 1556275479216.3567,
+      "ctimeMs": 1556275479216.3567,
+      "birthtimeMs": 1556275479215.8,
+      "atime": "2019-04-26T11:35:30.974Z",
+      "mtime": "2019-04-26T10:44:39.216Z",
+      "ctime": "2019-04-26T10:44:39.216Z",
+      "birthtime": "2019-04-26T10:44:39.216Z"
+    },
+    "e9f3fc4e-53d4-538a-bc50-9fbcd2c549c8": {
+      "id": "e9f3fc4e-53d4-538a-bc50-9fbcd2c549c8",
+      "children": [
+        "de2737d5-1dee-5f93-99d5-7d6150b756eb"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "78d33a8d459f6d180b6653558063c175",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"markdown/posts/blog-artifact-title-2.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/posts/blog-artifact-title-2.md",
+      "relativePath": "posts/blog-artifact-title-2.md",
+      "extension": "md",
+      "size": 114,
+      "prettySize": "114 B",
+      "modifiedTime": "2019-04-26T09:54:50.076Z",
+      "accessTime": "2019-04-26T11:33:59.763Z",
+      "changeTime": "2019-04-26T09:54:50.076Z",
+      "birthTime": "2019-04-26T09:25:12.425Z",
+      "root": "/",
+      "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/posts",
+      "base": "blog-artifact-title-2.md",
+      "ext": ".md",
+      "name": "blog-artifact-title-2",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21918083,
+      "blocks": 8,
+      "atimeMs": 1556278439762.5222,
+      "mtimeMs": 1556272490076.145,
+      "ctimeMs": 1556272490076.145,
+      "birthtimeMs": 1556270712424.5977,
+      "atime": "2019-04-26T11:33:59.763Z",
+      "mtime": "2019-04-26T09:54:50.076Z",
+      "ctime": "2019-04-26T09:54:50.076Z",
+      "birthtime": "2019-04-26T09:25:12.425Z"
+    },
+    "536e5593-597a-53b1-a512-1ccbac8346f9": {
+      "id": "536e5593-597a-53b1-a512-1ccbac8346f9",
+      "children": [
+        "afc493ee-266f-521d-94c9-1ceb9b1c7f64"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "97b4712638457d5ca6bb48b8fc06ee97",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"markdown/posts/artifact-t.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/posts/artifact-t.md",
+      "relativePath": "posts/artifact-t.md",
+      "extension": "md",
+      "size": 125,
+      "prettySize": "125 B",
+      "modifiedTime": "2019-04-26T10:13:31.392Z",
+      "accessTime": "2019-04-26T11:33:59.762Z",
+      "changeTime": "2019-04-26T10:13:31.392Z",
+      "birthTime": "2019-04-26T10:13:31.392Z",
+      "root": "/",
+      "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/posts",
+      "base": "artifact-t.md",
+      "ext": ".md",
+      "name": "artifact-t",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21923540,
+      "blocks": 8,
+      "atimeMs": 1556278439762.469,
+      "mtimeMs": 1556273611391.9863,
+      "ctimeMs": 1556273611391.9863,
+      "birthtimeMs": 1556273611391.691,
+      "atime": "2019-04-26T11:33:59.762Z",
+      "mtime": "2019-04-26T10:13:31.392Z",
+      "ctime": "2019-04-26T10:13:31.392Z",
+      "birthtime": "2019-04-26T10:13:31.392Z"
+    },
+    "4f10b91f-6a7e-5556-909f-93e17679a090": {
+      "id": "4f10b91f-6a7e-5556-909f-93e17679a090",
+      "children": [
+        "75e693a6-b733-53d1-a13a-0a0c5da882d8"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c8c17b50b30a7aec5a8fb91cac66d4e3",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"markdown/posts/ai-a.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/posts/ai-a.md",
+      "relativePath": "posts/ai-a.md",
+      "extension": "md",
+      "size": 168,
+      "prettySize": "168 B",
+      "modifiedTime": "2019-04-26T12:42:07.519Z",
+      "accessTime": "2019-04-26T12:42:07.553Z",
+      "changeTime": "2019-04-26T12:42:07.519Z",
+      "birthTime": "2019-04-26T12:42:07.518Z",
+      "root": "/",
+      "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/posts",
+      "base": "ai-a.md",
+      "ext": ".md",
+      "name": "ai-a",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21942078,
+      "blocks": 8,
+      "atimeMs": 1556282527552.591,
+      "mtimeMs": 1556282527518.653,
+      "ctimeMs": 1556282527518.653,
+      "birthtimeMs": 1556282527518.4465,
+      "atime": "2019-04-26T12:42:07.553Z",
+      "mtime": "2019-04-26T12:42:07.519Z",
+      "ctime": "2019-04-26T12:42:07.519Z",
+      "birthtime": "2019-04-26T12:42:07.518Z"
+    },
+    "1a468ff3-5047-5dff-a770-48d2db867949": {
+      "id": "1a468ff3-5047-5dff-a770-48d2db867949",
+      "children": [
+        "88df42ea-b1ba-50a3-acc3-28dac350a707"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "54691c2f72e41770ed777402cf0d06f1",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"markdown/posts/artifact-t2.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/posts/artifact-t2.md",
+      "relativePath": "posts/artifact-t2.md",
+      "extension": "md",
+      "size": 132,
+      "prettySize": "132 B",
+      "modifiedTime": "2019-04-26T10:21:11.875Z",
+      "accessTime": "2019-04-26T11:33:59.762Z",
+      "changeTime": "2019-04-26T10:21:11.875Z",
+      "birthTime": "2019-04-26T10:21:11.875Z",
+      "root": "/",
+      "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/posts",
+      "base": "artifact-t2.md",
+      "ext": ".md",
+      "name": "artifact-t2",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21933559,
+      "blocks": 8,
+      "atimeMs": 1556278439762.4956,
+      "mtimeMs": 1556274071874.8518,
+      "ctimeMs": 1556274071874.8518,
+      "birthtimeMs": 1556274071874.6606,
+      "atime": "2019-04-26T11:33:59.762Z",
+      "mtime": "2019-04-26T10:21:11.875Z",
+      "ctime": "2019-04-26T10:21:11.875Z",
+      "birthtime": "2019-04-26T10:21:11.875Z"
+    },
+    "d759f1e5-cd6f-57d1-89ea-20e080f2ff78": {
+      "id": "d759f1e5-cd6f-57d1-89ea-20e080f2ff78",
+      "children": [
+        "41cba0b6-4853-5fc4-87e7-a858527b42c4"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "24d2dad0b861e824ec562faa381bca14",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"markdown/posts/blog-artifact-title.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/posts/blog-artifact-title.md",
+      "relativePath": "posts/blog-artifact-title.md",
+      "extension": "md",
+      "size": 139,
+      "prettySize": "139 B",
+      "modifiedTime": "2019-04-26T09:54:46.349Z",
+      "accessTime": "2019-04-26T11:33:59.763Z",
+      "changeTime": "2019-04-26T09:54:46.349Z",
+      "birthTime": "2019-04-26T09:25:12.425Z",
+      "root": "/",
+      "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/posts",
+      "base": "blog-artifact-title.md",
+      "ext": ".md",
+      "name": "blog-artifact-title",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21918084,
+      "blocks": 8,
+      "atimeMs": 1556278439762.5476,
+      "mtimeMs": 1556272486349.2632,
+      "ctimeMs": 1556272486349.2632,
+      "birthtimeMs": 1556270712424.868,
+      "atime": "2019-04-26T11:33:59.763Z",
+      "mtime": "2019-04-26T09:54:46.349Z",
+      "ctime": "2019-04-26T09:54:46.349Z",
+      "birthtime": "2019-04-26T09:25:12.425Z"
+    },
+    "679cb962-0943-5ebb-9de4-ab839693faae": {
+      "id": "679cb962-0943-5ebb-9de4-ab839693faae",
+      "children": [],
+      "parent": "f88b6181-5227-594a-bc87-88a7ea27c2cb",
+      "internal": {
+        "content": "\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "c42ab34f1d19d9be1ce304ed63870035",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "blog-categories",
+        "collection-name": "blog-categories",
+        "path": "/blog-categories",
+        "long-title": "d",
+        "description": "d",
+        "summary": "d",
+        "keywords": "d"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n",
+      "fileAbsolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/blogCategories/blog-categories.md"
+    },
+    "de2737d5-1dee-5f93-99d5-7d6150b756eb": {
+      "id": "de2737d5-1dee-5f93-99d5-7d6150b756eb",
+      "children": [],
+      "parent": "e9f3fc4e-53d4-538a-bc50-9fbcd2c549c8",
+      "internal": {
+        "content": "2\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "ff01aaf8ee2df82dc0dbd47649010f0c",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "title 2",
+        "path": "sdf",
+        "category": "Artifact",
+        "long-title": "l 2",
+        "description": "2",
+        "summary": "2",
+        "keywords": "2"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "2\n",
+      "fileAbsolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/posts/blog-artifact-title-2.md"
+    },
+    "afc493ee-266f-521d-94c9-1ceb9b1c7f64": {
+      "id": "afc493ee-266f-521d-94c9-1ceb9b1c7f64",
+      "children": [],
+      "parent": "536e5593-597a-53b1-a512-1ccbac8346f9",
+      "internal": {
+        "content": "t\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "d14c96314d2558833674c357f0ff7847",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "t",
+        "collection-name": "posts",
+        "path": "/path",
+        "category": "artifact",
+        "long-title": "t",
+        "description": "t",
+        "summary": "t",
+        "keywords": "t"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "t\n",
+      "fileAbsolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/posts/artifact-t.md"
+    },
+    "88df42ea-b1ba-50a3-acc3-28dac350a707": {
+      "id": "88df42ea-b1ba-50a3-acc3-28dac350a707",
+      "children": [],
+      "parent": "1a468ff3-5047-5dff-a770-48d2db867949",
+      "internal": {
+        "content": "t2\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "82aed45324a886ebe6a1f3ee78dca315",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "t2",
+        "collection-name": "posts",
+        "path": "/path2",
+        "category": "artifact",
+        "long-title": "t2",
+        "description": "t2",
+        "summary": "t2",
+        "keywords": "t2"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "t2\n",
+      "fileAbsolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/posts/artifact-t2.md"
+    },
+    "41cba0b6-4853-5fc4-87e7-a858527b42c4": {
+      "id": "41cba0b6-4853-5fc4-87e7-a858527b42c4",
+      "children": [],
+      "parent": "d759f1e5-cd6f-57d1-89ea-20e080f2ff78",
+      "internal": {
+        "content": "body\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "9baccec7bd98775ac7413172091002fa",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "title",
+        "path": "sdf",
+        "category": "Artifact",
+        "long-title": "long title",
+        "description": "descroption",
+        "summary": "summery",
+        "keywords": "key word"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "body\n",
+      "fileAbsolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/posts/blog-artifact-title.md"
+    },
+    "SitePage /blog-categories": {
+      "jsonName": "blog-categories-e6d",
+      "internalComponentName": "ComponentBlogCategories",
+      "path": "/blog-categories",
+      "component": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/BlogPost.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "title": "blog-categories",
+        "html": ""
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/BlogPost.js",
+      "id": "SitePage /blog-categories",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "afd19383d00489b33fad997feafececd",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /path": {
+      "jsonName": "path-c55",
+      "internalComponentName": "ComponentPath",
+      "path": "/path",
+      "component": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/BlogPost.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "title": "t",
+        "html": "<p>t</p>"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/BlogPost.js",
+      "id": "SitePage /path",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ed9c7d0f9ef00c8311b04f2e6c6b0af3",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /path2": {
+      "jsonName": "path-2-d1f",
+      "internalComponentName": "ComponentPath2",
+      "path": "/path2",
+      "component": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/BlogPost.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "title": "t2",
+        "html": "<p>t2</p>"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/BlogPost.js",
+      "id": "SitePage /path2",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "896918b6a7da1f7b3d1549e6c4468014",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "81b9d01d-2a74-5843-a80e-74dc41907bd3",
+      "pluginCreatorId": "81b9d01d-2a74-5843-a80e-74dc41907bd3",
+      "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "10179b2f14941bbd7798c061b1ac1b2d",
+        "description": "81b9d01d-2a74-5843-a80e-74dc41907bd3",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "75e693a6-b733-53d1-a13a-0a0c5da882d8": {
+      "id": "75e693a6-b733-53d1-a13a-0a0c5da882d8",
+      "children": [],
+      "parent": "4f10b91f-6a7e-5556-909f-93e17679a090",
+      "internal": {
+        "content": "![f](/src/assets/top-tech-issues-post.jpg \"f\")\n\na\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "b1d425d8e7bc48f312e2015905b1c3be",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "a",
+        "collection-name": "posts",
+        "path": "/path4",
+        "category": "ai",
+        "long-title": "a",
+        "description": "a",
+        "summary": "a",
+        "keywords": "a"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "![f](/src/assets/top-tech-issues-post.jpg \"f\")\n\na\n",
+      "fileAbsolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/posts/ai-a.md"
+    },
+    "SitePage /path4": {
+      "jsonName": "path-4-49c",
+      "internalComponentName": "ComponentPath4",
+      "path": "/path4",
+      "component": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/BlogPost.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "isCreatedByStatefulCreatePages": false,
+      "context": {
+        "title": "a",
+        "html": "<p><img src=\"/src/assets/top-tech-issues-post.jpg\" alt=\"f\" title=\"f\"></p>\n<p>a</p>"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/BlogPost.js",
+      "id": "SitePage /path4",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a76216d55729e7dd98267737fd835579",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "ccd9e741447f16d455b4861182659ce0"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "index": "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "path-3-51a": "283/path---path-3-51-a-384-pd5zwTLMU4fz9PTZNZLIdT1XA0Y",
+    "blog-categories-e6d": "341/path---blog-categories-e-6-d-889-7cAqKQNswAVlmqmdeQaJxjKm0",
+    "path-2-d1f": "178/path---path-2-d-1-f-c0e-g4LqAyFEToCiRnwFoh6ej7hA",
+    "path-c55": "191/path---path-c-55-09c-P0z8Z39xKy9r4Aex3wkJMqeLJvo",
+    "path-4-49c": "239/path---path-4-49-c-2f4-NJjA06W4V4ftaS59KyaiUE1nM"
+  },
+  "components": {
+    "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/BlogPost.js": {
+      "query": "",
+      "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/templates/BlogPost.js",
+      "pages": [
+        "/blog-categories",
+        "/path3",
+        "/path",
+        "/path2",
+        "/path4"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/deniskozyrev/Dev/DashBouquet/CMS2/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/.cache/dev-404-page.js",
+      "pages": [
+        "/dev-404-page/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/src/pages/index.js",
+      "pages": [
+        "/"
+      ],
+      "isInBootstrap": true
+    }
+  },
+  "staticQueryComponents": {}
+}
