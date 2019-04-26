@@ -6,11 +6,8 @@ const BlogPost = ({ pageContext }) => {
 
   return (
     <>
-      <header>
-        <h1>{title}</h1>
-      </header>
+      <h1>{title}</h1>
       <div dangerouslySetInnerHTML={{ __html: html }}/>
-
     </>
   );
 };

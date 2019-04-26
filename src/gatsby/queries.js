@@ -12,11 +12,10 @@ const allCreatePageQueries = `
           frontmatter {
             path
             title
-            long-title
+            long_title
             description
             summary
             keywords
-            body
           }
           html
         }
@@ -35,11 +34,10 @@ const allCreatePageQueries = `
             path
             category
             title
-            long-title
+            long_title
             description
             summary
             keywords
-            body
           }
           html
         }

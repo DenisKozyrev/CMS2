@@ -1,16 +1,13 @@
 import React from "react";
 
 const BlogCategory = ({ pageContext }) => {
-
-  const { category, title, html } = pageContext;
+  
+  const { title, html } = pageContext;
 
   return (
     <>
-      <header>
-        <h2>{title}</h2>
-      </header>
+      <h2>{title}</h2>
       <div dangerouslySetInnerHTML={{ __html: html }}/>
-
     </>
   );
 };
