@@ -807,7 +807,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "19b963c5e94d1bd35899f84ce0cbffa8",
+        "contentDigest": "e7c20bcd8b0a6d0b95dbf650b7c6fb9a",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"markdown/index.md\"",
@@ -817,11 +817,11 @@
       "absolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/index.md",
       "relativePath": "index.md",
       "extension": "md",
-      "size": 17,
-      "prettySize": "17 B",
-      "modifiedTime": "2019-04-26T08:35:22.011Z",
-      "accessTime": "2019-04-26T08:42:16.625Z",
-      "changeTime": "2019-04-26T08:35:22.011Z",
+      "size": 26,
+      "prettySize": "26 B",
+      "modifiedTime": "2019-04-26T09:02:58.974Z",
+      "accessTime": "2019-04-26T09:02:58.974Z",
+      "changeTime": "2019-04-26T09:02:58.974Z",
       "birthTime": "2019-04-26T08:33:30.362Z",
       "root": "/",
       "dir": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown",
@@ -838,31 +838,14 @@
       "blksize": 4096,
       "ino": 21913138,
       "blocks": 8,
-      "atimeMs": 1556268136625.072,
-      "mtimeMs": 1556267722011.4158,
-      "ctimeMs": 1556267722011.4158,
+      "atimeMs": 1556269378973.7197,
+      "mtimeMs": 1556269378974.1624,
+      "ctimeMs": 1556269378974.1624,
       "birthtimeMs": 1556267610362.1902,
-      "atime": "2019-04-26T08:42:16.625Z",
-      "mtime": "2019-04-26T08:35:22.011Z",
-      "ctime": "2019-04-26T08:35:22.011Z",
+      "atime": "2019-04-26T09:02:58.974Z",
+      "mtime": "2019-04-26T09:02:58.974Z",
+      "ctime": "2019-04-26T09:02:58.974Z",
       "birthtime": "2019-04-26T08:33:30.362Z"
-    },
-    "2c2009e5-5fd9-560c-9a75-79e4a92201d3": {
-      "id": "2c2009e5-5fd9-560c-9a75-79e4a92201d3",
-      "children": [],
-      "parent": "bbb61e46-fa78-5352-a33c-7043d830743e",
-      "internal": {
-        "content": "",
-        "type": "MarkdownRemark",
-        "contentDigest": "54effda53ac68e79532b0226f3d5510d",
-        "owner": "gatsby-transformer-remark"
-      },
-      "frontmatter": {
-        "title": ""
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "",
-      "fileAbsolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/index.md"
     },
     "SitePage /": {
       "jsonName": "index",
@@ -884,6 +867,24 @@
         "description": "81b9d01d-2a74-5843-a80e-74dc41907bd3",
         "owner": "internal-data-bridge"
       }
+    },
+    "2c2009e5-5fd9-560c-9a75-79e4a92201d3": {
+      "id": "2c2009e5-5fd9-560c-9a75-79e4a92201d3",
+      "children": [],
+      "parent": "bbb61e46-fa78-5352-a33c-7043d830743e",
+      "internal": {
+        "content": "",
+        "type": "MarkdownRemark",
+        "contentDigest": "114e68499ed244ec2c1f00f6a5a16c51",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "slug": ""
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "",
+      "fileAbsolutePath": "/Users/deniskozyrev/Dev/DashBouquet/CMS2/markdown/index.md"
     }
   },
   "status": {
