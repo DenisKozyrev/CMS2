@@ -13,7 +13,7 @@ public_folder: src/assets
 site_url: https://cms50.netlify.com
 
 collections:
-- name: pages
+  - name: pages
     label: Pages 
     folder: markdown/pages
     create: true

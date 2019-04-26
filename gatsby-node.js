@@ -4,7 +4,7 @@ const path = require("path")
 exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions
 
-  const BlogTemplate = path.resolve(`src/templates/Blog.js`)
+  const BlogPostTemplate = path.resolve(`src/templates/BlogPost.js`)
   
   return graphql(`
     {
@@ -12,8 +12,8 @@ exports.createPages = async ({ actions, graphql }) => {
         edges {
           node {
             frontmatter {
+              slug
               title
-              path
             }
             html
           }
@@ -25,14 +25,13 @@ exports.createPages = async ({ actions, graphql }) => {
       return Promise.reject(result.errors)
     }
 
-    if(result.data.allMarkdownRemark.edges.length) {
+    if(result.data && result.data.allMarkdownRemark.edges.length) {
       result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
-        path: node.frontmatter.path,
-        component: BlogTemplate,
+        path: node.frontmatter.slug,
+        component: BlogPostTemplate,
         context: {
           title: node.frontmatter.title,
-          date: node.frontmatter.date,
           html: node.html
         }, 
       })
