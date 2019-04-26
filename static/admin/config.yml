@@ -42,7 +42,7 @@ collections:
   - name: blog-categories    
     label: Blog Categories
     folder: markdown/blogCategories/
-    slug: /{{category}}
+    slug: /{{title}}
     create: true
     fields:
       - { name: collection-name, label: Collection Name, widget: string, default: blog-categories }
