@@ -11,9 +11,9 @@ exports.createPages = async ({ actions, graphql }) => {
       allMarkdownRemark {
         edges {
           node {
-            frontmatter {
-              slug
+            frontmatter(filter: {category}) {
               title
+              path
             }
             html
           }
@@ -28,7 +28,7 @@ exports.createPages = async ({ actions, graphql }) => {
     if(result.data && result.data.allMarkdownRemark.edges.length) {
       result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
-        path: node.frontmatter.slug,
+        path: node.frontmatter.path,
         component: BlogPostTemplate,
         context: {
           title: node.frontmatter.title,

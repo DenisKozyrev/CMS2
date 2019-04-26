@@ -1,4 +1,0 @@
----
-slug: 'path'
-title: ''
----

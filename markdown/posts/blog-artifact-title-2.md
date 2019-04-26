@@ -1,4 +1,5 @@
 ---
+path: sdf
 category: Artifact
 title: title 2
 long-title: l 2

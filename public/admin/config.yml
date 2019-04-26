@@ -18,6 +18,7 @@ collections:
     folder: markdown/pages
     create: true
     fields:
+      - { name: collection-name, label: Collection Name, widget: string, default: pages }
       - { name: title, label: Title, widget: string }
       - { name: long-title, label: Long Title, widget: string }
       - { name: description, label: Description,  widget: string }
@@ -30,6 +31,8 @@ collections:
     slug: /{{title}}
     create: true
     fields:
+      - { name: collection-name, label: Collection Name, widget: string, default: our-work-items }
+      - { name: path, label: Path, widget: string, default: / }
       - { name: title, label: Title, widget: string }
       - { name: long-title, label: Long Title, widget: string }
       - { name: description, label: Description,  widget: string }
@@ -42,6 +45,8 @@ collections:
     slug: /{{category}}
     create: true
     fields:
+      - { name: collection-name, label: Collection Name, widget: string, default: blog-categories }
+      - { name: path, label: Path, widget: string, default: / }
       - { name: title, label: Title, widget: string }
       - { name: long-title, label: Long Title, widget: string }
       - { name: description, label: Description,  widget: string }
@@ -54,6 +59,8 @@ collections:
     slug: /{{category}}/{{title}}"
     create: true
     fields:
+      - { name: collection-name, label: Collection Name, widget: string, default: posts }
+      - { name: path, label: Path, widget: string, default: / }
       - { name: category, label: Category, widget: string }
       - { name: title, label: Title, widget: string }
       - { name: long-title, label: Long Title, widget: string }
