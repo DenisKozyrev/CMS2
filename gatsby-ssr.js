@@ -1,8 +1,11 @@
-const React = require("react")
-const Layout = require("./src/components/Layout")
+/* eslint-disable react/prop-types */
+import React from "react";
+import Layout from "./src/components/Layout";
 
-exports.wrapPageElement = ({ element, props }) => {
+const wrapPageElement = ({ element, props }) => (
   // props provide same data to Layout as Page element will get
   // including location, data, etc - you don't need to pass it
-  return <Layout {...props}>{element}</Layout>
-}
+  <Layout {...props}>{element}</Layout>
+);
+
+export default wrapPageElement;
