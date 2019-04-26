@@ -6,6 +6,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "artifact-f72",
+        "path": "/Artifact"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
         "jsonName": "artifact-2aa",
         "path": "/artifact"
     },
@@ -13,5 +18,10 @@
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-js",
+        "jsonName": "sdf-d97",
+        "path": "/sdf"
     }
 ]

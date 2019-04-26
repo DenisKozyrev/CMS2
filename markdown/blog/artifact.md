@@ -1,6 +1,7 @@
 ---
 category: Artifact
 path: /artifact
+date: ''
 title: Artifact name
 long-title: long
 description: d

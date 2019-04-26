@@ -12,20 +12,4 @@ const HomePage = ({ data }) => {
 }
 
 
-export const query = graphql`
-{
-  allMarkdownRemark {
-    edges {
-      node {
-        frontmatter {
-          title
-          date
-        }
-        html
-      }
-    }
-  }
-}
-`
-
 export default HomePage
