@@ -27,7 +27,7 @@ collections:
   - name: our-work-items
     label: Our work Items
     folder: markdown/ourWorkItems
-    slug: our-work/{{title}}
+    slug: /{{title}}
     create: true
     fields:
       - { name: title, label: Title, widget: string }
@@ -39,7 +39,7 @@ collections:
   - name: blog-categories    
     label: Blog Categories
     folder: markdown/blogCategories/
-    slug: blog/{{category}}
+    slug: /{{category}}
     create: true
     fields:
       - { name: title, label: Title, widget: string }
@@ -51,7 +51,7 @@ collections:
   - name: post    
     label: Posts
     folder: markdown/posts/
-    slug: blog/{{category}}/{{title}}"
+    slug: /{{category}}/{{title}}"
     create: true
     fields:
       - { name: category, label: Category, widget: string }
