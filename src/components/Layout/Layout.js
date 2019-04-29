@@ -2,6 +2,7 @@ import React from "react";
 import * as PropTypes from "prop-types";
 import { Box } from "rebass";
 import Helmet from "react-helmet";
+import GlobalStyles from "../../utils/theme/globalStyles";
 import Header from "../Header";
 import Footer from "../Footer";
 
@@ -20,6 +21,7 @@ const InnerLayout = ({ children, data }) => (
         }
       ]}
     />
+    <GlobalStyles />
     <Header />
     <Box as="main">{children}</Box>
     <Footer />

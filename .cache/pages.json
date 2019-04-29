@@ -10,6 +10,11 @@
         "path": "/blog-categories/"
     },
     {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
         "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "path-c55",
         "path": "/path"
