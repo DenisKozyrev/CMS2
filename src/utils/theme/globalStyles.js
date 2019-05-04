@@ -14,14 +14,10 @@ export default createGlobalStyle`
   }
 
   body {
-    color: #000;
     background: ${colors.primary1};
     font-family: ${fonts.lato};
     font-size: 16px;
+    line-height: 1.3;
     white-space: pre-wrap;
-  }
-  
-  body ::selection {
-
   }
 `;

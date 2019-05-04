@@ -1,10 +1,10 @@
 ---
-collection-name: blog-categories
+collection-name: collection-name
 path: /blog-categories/
-title: blog-categories
-long-title: d
-description: d
-summary: d
-keywords: d
+title: title
+long-title: long-title
+description: description
+summary: summary
+keywords: keywords
 ---
 

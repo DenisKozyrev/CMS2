@@ -1,6 +1,6 @@
 ---
-path: sdf
-category: Artifact
+path: posts/artifact
+category: category
 title: title
 long-title: long title
 description: descroption
