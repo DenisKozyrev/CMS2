@@ -27,7 +27,7 @@ const Footer = ({ children }) => (
             }
           }
         }
-        footerbg: file(relativePath: { eq: "footerbg.jpg" }) {
+        footerbg: file(relativePath: { eq: "images/footerbg.jpg" }) {
           childImageSharp {
             fluid(quality: 100) {
               src

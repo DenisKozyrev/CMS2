@@ -68,7 +68,7 @@ const Footer = ({
       <Flex
         as="form"
         name="DashbouquetForm"
-        method="post"
+        method="post" 
         netlify="true"
         data-netlify-honeypot="bot-field"
         action="/"

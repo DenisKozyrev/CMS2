@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{212:function(n){n.exports={pages:[{componentChunkName:"component---src-pages-index-js",jsonName:"index",path:"/"}],dataPaths:{index:"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","sq--src-components-footer-index-js":105016286,"sq--src-components-layout-index-js":3032427351}}}}]);
-//# sourceMappingURL=pages-manifest-81c3937d67661cebcfbe.js.map
