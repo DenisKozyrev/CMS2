@@ -36,12 +36,12 @@ collections:
       - { name: type, label: Type, widget: string, default: mobile-and-web-aplications-work-examples }
       - { name: title, label: Title, widget: string }
       - { name: long-title, label: Long Title, widget: string }
+      - { name: text-color, label: Text Color, widget: string, hint: "Enter color as hex values (#ffffff)" }
       - label: "Technologies"
         name: "technologies"
         widget: "list"
         hint: "Enter your keywords comma-separated (javascript, python)"
         default: []
-      - { name: title, label: Title, widget: string }
       - label: "Our Work Example Background Image"
         name: "our-work-example-background-image"
         widget: "image"
