@@ -1,5 +1,6 @@
 /* eslint-disable consistent-return */
 const path = require("path");
+const { fmImagesToRelative } = require("gatsby-remark-relative-images");
 const { allCreatePageQueries } = require("./src/gatsby/queries");
 
 exports.createPages = async ({ actions, graphql }) => {
@@ -34,4 +35,8 @@ exports.createPages = async ({ actions, graphql }) => {
       });
     });
   });
+};
+
+exports.onCreateNode = ({ node }) => {
+  fmImagesToRelative(node);
 };

@@ -45,18 +45,25 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "markdown-pages",
-        path: `${__dirname}/markdown`,
-        ignore: [`**/.*`]
+        name: `images`,
+        path: `${__dirname}/src/assets/images/`
       }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/assets/images/`
+        path: `${__dirname}/src/assets/images/markdown`
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "markdown-files",
+        path: `${__dirname}/markdown`,
+        ignore: [`**/.*`]
       }
     },
     {
@@ -67,10 +74,36 @@ module.exports = {
         }
       }
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/src/pages`,
+        name: "pages"
+      }
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          // gatsby-remark-relative-images-v2 must
+          // go before gatsby-remark-images
+          {
+            resolve: `gatsby-remark-relative-images-v2`
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+            }
+          }
+        ]
+      }
+    },
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     "gatsby-plugin-styled-components",
-    "gatsby-transformer-remark",
     "gatsby-plugin-netlify-cms"
   ]
 };

@@ -7,7 +7,7 @@ accept_roles:
 
 publish_mode: editorial_workflow
 
-media_folder: src/assets/images
+media_folder: src/assets/images/markdown
 
 site_url: https://dashbouquet.netlify.com
 
@@ -41,8 +41,9 @@ collections:
         widget: "list"
         hint: "Enter your keywords comma-separated (javascript, python)"
         default: []
+      - { name: title, label: Title, widget: string }
       - label: "Our Work Example Background Image"
-        name: "ourWorkExampleBackgroundImage"
+        name: "our-work-example-background-image"
         widget: "image"
         default: ""
   - name: blog-categories    

@@ -40,7 +40,7 @@ const Footer = ({
       }
     },
     footerbg,
-    homePageMarkdownInfo
+    work
   }
 }) => (
   <Flex
@@ -56,7 +56,8 @@ const Footer = ({
       background-position: center;
     `}
   >
-    {console.log(homePageMarkdownInfo)}
+    {/* <img src={`${work.edges[0].node.frontmatter.ourWorkExampleBackgroundImage}`} /> */}
+    {console.log(work)}
     <Flex
       justifyContent="space-between"
       flexDirection={["column", "row"]}
