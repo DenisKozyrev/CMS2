@@ -7,7 +7,7 @@ accept_roles:
 
 publish_mode: editorial_workflow
 
-media_folder: src/assets/images/markdown
+media_folder: static/assets/images/
 
 site_url: https://dashbouquet.netlify.com
 
