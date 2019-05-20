@@ -39,7 +39,8 @@ const Footer = ({
         contacts: { email, addresses, phones, socialLinks }
       }
     },
-    footerbg
+    footerbg,
+    homePageMarkdownInfo
   }
 }) => (
   <Flex
@@ -55,6 +56,7 @@ const Footer = ({
       background-position: center;
     `}
   >
+    {console.log(homePageMarkdownInfo)}
     <Flex
       justifyContent="space-between"
       flexDirection={["column", "row"]}
