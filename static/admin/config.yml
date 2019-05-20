@@ -33,12 +33,12 @@ collections:
     create: true
     fields:
       - { name: collection-name, label: Collection Name, widget: string, default: our-work-items }
-      - { name: path, label: Path, widget: string, default: / }
       - { name: title, label: Title, widget: string }
       - { name: long-title, label: Long Title, widget: string }
-      - { name: description, label: Description,  widget: string }
-      - { name: summary, label: Summary (introtext),  widget: string }
-      - { name: keywords, label: Focus keywords, widget: string, hint: "Enter your keywords comma-separated (table, chair)" }
+      - label: "Technologies"
+          name: "technologies"
+          widget: "list"
+          default: []
       - { name: body, label: Body, widget: markdown }
   - name: blog-categories    
     label: Blog Categories
