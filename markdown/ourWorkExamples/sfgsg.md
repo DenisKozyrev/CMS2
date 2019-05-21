@@ -1,6 +1,6 @@
 ---
 collection-name: our-work-examples
-type: mobile-and-web-aplications-work-examples
+type: mobile-and-web-aplications
 title: sfgsg
 long-title: sds
 text-color: '#000'
