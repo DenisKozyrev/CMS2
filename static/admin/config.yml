@@ -46,7 +46,7 @@ collections:
         name: "example-background-image"
         widget: "image"
         default: ""
-  `- name: client-reviews
+  - name: client-reviews
     label: Client Reviews
     folder: markdown/clientReviews
     slug: /{{title}}
@@ -59,10 +59,10 @@ collections:
         widget: "image"
         default: ""
       - { name: clientInfo, label: Client Info, widget: string }
-      - name: clientReviewText,
-        label: Client Review Text,
-        widget: string,
-        pattern: ['.{12,}', 'Must have at least 12 characters'],
+      - name: clientReviewText
+        label: Client Review Text
+        widget: string
+        pattern: ['.{12,}', 'Must have at least 12 characters']
   - name: blog-categories    
     label: Blog Categories
     folder: markdown/blogCategories/
