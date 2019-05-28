@@ -7,7 +7,7 @@ accept_roles:
 
 publish_mode: editorial_workflow
 
-media_folder: static/assets/images/
+media_folder: src/assets/images
 
 site_url: https://dashbouquet.netlify.com
 
@@ -15,13 +15,11 @@ collections:
   - name: pages
     label: Pages 
     folder: markdown/pages
-    slug: /{{name}}
     create: true
     fields:
-      - { name: collection-name, label: Collection Name, widget: string, default: pages }
-      - { name: name, label: Name, widget: string }
+      - { name: collectionName, label: Collection Name, widget: string, default: pages }
       - { name: title, label: Title, widget: string }
-      - { name: long-title, label: Long Title, widget: string }
+      - { name: longTitle, label: Long Title, widget: string }
       - { name: description, label: Description,  widget: string }
       - { name: summary, label: Summary (introtext),  widget: string }
       - { name: keywords, label: Focus keywords, widget: string, hint: "Enter your keywords comma-separated (table, chair)" }
@@ -35,15 +33,15 @@ collections:
       - { name: collection-name, label: Collection Name, widget: string, default: our-work-examples }
       - { name: type, label: Type, widget: string, default: mobile-and-web-aplications-work-examples }
       - { name: title, label: Title, widget: string }
-      - { name: long-title, label: Long Title, widget: string }
-      - { name: text-color, label: Text Color, widget: string, hint: "Enter color as hex values (#ffffff)" }
+      - { name: subtitle, label: Subtitle, widget: string }
+      - { name: textColor, label: Text Color, widget: string, hint: "Enter color as hex values (#ffffff)" }
       - label: "Technologies"
         name: "technologies"
         widget: "list"
         hint: "Enter your keywords comma-separated (javascript, python)"
         default: []
       - label: "Example Background Image"
-        name: "example-background-image"
+        name: "exampleBackgroundImage"
         widget: "image"
         default: ""
   - name: client-reviews
@@ -59,20 +57,35 @@ collections:
         widget: "image"
         default: ""
       - { name: clientInfo, label: Client Info, widget: string }
-      - name: clientReviewText
-        label: Client Review Text
-        widget: string
-        pattern: ['.{12,}', 'Must have at least 12 characters']
+      - { name: clientReviewText, label: Client Review Text, widget: string }
+  - name: team-members
+    label: Team Members
+    folder: markdown/teamMembers
+    slug: /{{title}}
+    create: true
+    fields:
+      - { name: collection-name, label: Collection Name, widget: string, default: team-members }
+      - { name: title, label: Title, widget: string }
+      - label: "Member`s Photo"
+        name: "membersPhoto"
+        widget: "image"
+        default: ""
+      - label: "Member`s Hover Photo"
+        name: "membersHoverPhoto"
+        widget: "image"
+        default: ""
+      - { name: membersName, label: Member`s Name, widget: string }
+      - { name: membersPosition, label: Member`s Position, widget: string }
   - name: blog-categories    
     label: Blog Categories
     folder: markdown/blogCategories/
     slug: /{{title}}
     create: true
     fields:
-      - { name: collection-name, label: Collection Name, widget: string, default: blog-categories }
+      - { name: collectionName, label: Collection Name, widget: string, default: blog-categories }
       - { name: path, label: Path, widget: string, default: / }
       - { name: title, label: Title, widget: string }
-      - { name: long-title, label: Long Title, widget: string }
+      - { name: longTitle, label: Long Title, widget: string }
       - { name: description, label: Description,  widget: string }
       - { name: summary, label: Summary (introtext),  widget: string }
       - { name: keywords, label: Focus keywords, widget: string, hint: "Enter your keywords comma-separated (table, chair)" }
@@ -83,11 +96,11 @@ collections:
     slug: /{{category}}/{{title}}"
     create: true
     fields:
-      - { name: collection-name, label: Collection Name, widget: string, default: posts }
+      - { name: collectionName, label: Collection Name, widget: string, default: posts }
       - { name: path, label: Path, widget: string, default: / }
       - { name: category, label: Category, widget: string }
       - { name: title, label: Title, widget: string }
-      - { name: long-title, label: Long Title, widget: string }
+      - { name: longTitle, label: Long Title, widget: string }
       - { name: description, label: Description,  widget: string }
       - { name: summary, label: Summary (introtext),  widget: string }
       - { name: keywords, label: Focus keywords, widget: string, hint: "Enter your keywords comma-separated (table, chair)" }
