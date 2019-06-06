@@ -97,8 +97,11 @@ collections:
     create: true
     fields:
       - { name: collectionName, label: Collection Name, widget: string, default: posts }
-      - { name: path, label: Path, widget: string, default: / }
       - { name: category, label: Category, widget: string }
+      - label: "Post Photo"
+        name: "postPhoto"
+        widget: "image"
+        default: ""
       - { name: title, label: Title, widget: string }
       - { name: introtext, label: Introtext, widget: string }
       - { name: metaDescription, label: Meta Description,  widget: string }
