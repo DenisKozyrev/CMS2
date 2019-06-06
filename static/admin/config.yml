@@ -93,7 +93,7 @@ collections:
   - name: post    
     label: Posts
     folder: markdown/posts/
-    slug: /{{category}}/{{title}}"
+    slug: "{{title}}"
     create: true
     fields:
       - { name: collectionName, label: Collection Name, widget: string, default: posts }
