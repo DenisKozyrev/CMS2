@@ -8,7 +8,7 @@ introtext: >-
   to gain competitive advantage and come up with brand-new products and
   services. We have prepared an overview of the biggest names in the world of
   technology and their investment in AI
-metaDescription: Meta description
+metaDescription: Meta description 1
 keywords: Meta Keywords
 ---
 # H1
